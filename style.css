@@ -1,0 +1,41 @@
+.box{
+background-image: linear-gradient(to right, #A5F8FC, #121B65);
+width: 75%;
+height: 450px;
+border-radius: 30px;
+margin: 7% auto;
+padding: 1rem;
+}
+.sections{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec1 > img
+{   width: 35%;
+}
+.sec2 > h4
+{
+    width: 50%;
+    text-align:right;
+    margin-right: 50px;
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.sec2
+{
+    width: 40%;
+    margin:100px;
+}
+.sec2 > button{
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    padding: 1.3rem;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    float: right;
+}
